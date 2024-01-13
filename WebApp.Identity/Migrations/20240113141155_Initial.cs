@@ -75,6 +75,7 @@ namespace WebApp.Identity.Migrations
                     LockoutEnabled = table.Column<bool>(nullable: false),
                     AccessFailedCount = table.Column<int>(nullable: false),
                     NomeCompleto = table.Column<string>(nullable: true),
+                    Member = table.Column<string>(nullable: true),
                     OrgId = table.Column<string>(nullable: true)
                 },
                 constraints: table =>
